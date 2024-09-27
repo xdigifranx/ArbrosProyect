@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario\\Arbros\\Arbros\\",
+  "WorkspaceRootPath": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\usuario\\arbros\\arbros\\arbros\\pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\pages\\empleados.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\pages\\empleados.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\usuario\\arbros\\arbros\\arbros\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\pages\\categoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\pages\\categoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\arsis\\source\\repos\\arbros\\arbrosproyect\\arbros\\arbros\\pages\\myproduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\pages\\myproduc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Arbros\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Arbros\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T02:11:11.134Z"
+              "WhenOpened": "2024-09-27T17:30:36.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Contacto.razor",
-              "DocumentMoniker": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Pages\\Contacto.razor",
-              "RelativeDocumentMoniker": "Arbros\\Pages\\Contacto.razor",
-              "ToolTip": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Pages\\Contacto.razor",
-              "RelativeToolTip": "Arbros\\Pages\\Contacto.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Arbros\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Home.razor",
+              "RelativeToolTip": "Arbros\\Pages\\Home.razor",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T02:08:10.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T17:29:54.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contacto.razor",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Contacto.razor",
+              "RelativeDocumentMoniker": "Arbros\\Pages\\Contacto.razor",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Contacto.razor",
+              "RelativeToolTip": "Arbros\\Pages\\Contacto.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T17:26:45.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleados.razor",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Empleados.razor",
+              "RelativeDocumentMoniker": "Arbros\\Pages\\Empleados.razor",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Empleados.razor",
+              "RelativeToolTip": "Arbros\\Pages\\Empleados.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T16:56:54.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\_Imports.razor",
+              "RelativeDocumentMoniker": "Arbros\\_Imports.razor",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\_Imports.razor",
+              "RelativeToolTip": "Arbros\\_Imports.razor",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T16:24:36.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyProduc.cs",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\MyProduc.cs",
+              "RelativeDocumentMoniker": "Arbros\\Pages\\MyProduc.cs",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\MyProduc.cs",
+              "RelativeToolTip": "Arbros\\Pages\\MyProduc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T14:37:10.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.razor",
+              "DocumentMoniker": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Categoria.razor",
+              "RelativeDocumentMoniker": "Arbros\\Pages\\Categoria.razor",
+              "ToolTip": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Pages\\Categoria.razor",
+              "RelativeToolTip": "Arbros\\Pages\\Categoria.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:17:13.008Z"
             }
           ]
         }

@@ -13,43 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Arbros
 build_property.RootNamespace = Arbros
-build_property.ProjectDir = C:\Users\usuario\Arbros\Arbros\Arbros\
+build_property.ProjectDir = C:\Users\ARSis\source\repos\Arbros\ArbrosProyect\Arbros\Arbros\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\usuario\Arbros\Arbros\Arbros
+build_property.MSBuildProjectDirectory = C:\Users\ARSis\source\repos\Arbros\ArbrosProyect\Arbros\Arbros
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/App.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/Pages/Categoria.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Pages/Categoria.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/Pages/Contacto.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Pages/Contacto.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/Pages/Home.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Pages/Empleados.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbGVhZG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/Pages/Nosotros.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Pages/Nosotros.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm9zb3Ryb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/Pages/Usuario.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Pages/Usuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/_Imports.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Arbros/Arbros/Arbros/Layout/MainLayout.razor]
+[C:/Users/ARSis/source/repos/Arbros/ArbrosProyect/Arbros/Arbros/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-abxhamn8ov

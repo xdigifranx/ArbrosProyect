@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Arbros.csproj": {}
+    "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Arbros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Arbros.csproj": {
+    "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Arbros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Arbros.csproj",
+        "projectUniqueName": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Arbros.csproj",
         "projectName": "Arbros",
-        "projectPath": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Arbros.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\obj\\",
+        "projectPath": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\Arbros.csproj",
+        "packagesPath": "C:\\Users\\ARSis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ARSis\\source\\repos\\Arbros\\ArbrosProyect\\Arbros\\Arbros\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ARSis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,11 +73,11 @@
             },
             "Syncfusion.Blazor": {
               "target": "Package",
-              "version": "[27.1.48, )"
+              "version": "[20.4.0.44, )"
             },
             "Syncfusion.Blazor.Themes": {
               "target": "Package",
-              "version": "[27.1.48, )"
+              "version": "[20.4.0.44, )"
             }
           },
           "imports": [

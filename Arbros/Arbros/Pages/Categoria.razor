@@ -1,2 +1,57 @@
-﻿@page "/categoria"
-<h1>categoria</h1>
+﻿@* @page "/categoria"
+@using MyProduct.Models
+
+<SfGrid TValue="MyProduc">
+	<GridColumns>
+		<GridColumn Field="@nameof(MyProduc.Id)" HeaderText="Id"></GridColumn>
+		<GridColumn Field="@nameof(MyProduc.Name)" HeaderText="Name"></GridColumn>
+		<GridColumn Field="@nameof(MyProduc.Description)" HeaderText="Description"></GridColumn>
+		<GridColumn Field="@nameof(MyProduc.Precio)" HeaderText="Precio"></GridColumn>
+		<GridColumn Field="@nameof(MyProduc.Stock)" HeaderText="Stock"></GridColumn>
+		<GridColumn>
+			<Template>
+				@{
+					var category = (Category)context; // Conversión del contexto
+				}
+				<button @onclick="() => EditCategory(category)">Editar</button>
+				<button @onclick="() => DeleteCategory(category)">Eliminar</button>
+			</Template>
+		</GridColumn>
+	</GridColumns>
+</SfGrid>
+<SfDialog  header="Empleados"> 
+	<div>
+		<EditForm>
+			<DataAnnotationsValidator/>
+			<ValidationSummary></ValidationSummary>
+			<InputNumber @bind-Value="catego.Id"></InputNumber>
+			<InputText @bind-Value="catego.Name"></InputText>
+			<InputText @bind-Value="catego.Description"></InputText>
+			<InputNumber @bind-Value="catego.Precio"></InputNumber>
+			<InputNumber @bind-Value="catego.Stock"></InputNumber>
+			<SfButton OnClick="agregar">Agregar</SfButton>
+		</EditForm>
+
+	</div>
+</SfDialog>
+
+@code{
+    private bool aparece = false;
+    private const bool Value = true;
+    private List<MyProduc> myProducs;
+
+	public Categoria(List<MyProduc> myProducs)
+	{
+		this.myProducs = myProducs;
+	}
+	private MyProduc catego = new MyProduc();
+
+	protected override void OnInitialized()
+	{
+		myProducs = new List<MyProduc>()
+		{
+			new MyProduc { Id=1,Name="coca",Description= "coca fria", Precio =2000, Stock= 31},
+			new MyProduc { Id=2,Name="manaos",Description= "manaos fria", Precio =1500, Stock= 20}
+		};
+	}
+} *@

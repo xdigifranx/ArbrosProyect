@@ -1,6 +1,6 @@
 ﻿@inherits LayoutComponentBase
 <div class="page">
-
+        <SfButton IconCss="e-icon e-menu" CssClass="custom-button" OnClick="bar" IconPosition="IconPosition.Right"></SfButton>
     <SfSidebar @bind-IsOpen="siderbar" Width="300px" Position="SidebarPosition.Left" style="background-color:#A8D26D; width:250px">
             <ChildContent>
                 <div  class="text-content">
@@ -25,11 +25,10 @@
             </ChildContent>
         </SfSidebar>
 
-
     <main>
         <article class="content px-4">
 
-            <SfButton  IconCss="e-icon e-menu" CssClass="custom-button" OnClick="bar" IconPosition="IconPosition.Left"></SfButton>
+            
             @Body
         </article>
     </main>

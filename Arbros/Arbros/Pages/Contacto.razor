@@ -6,33 +6,34 @@
   <h5>Si tienes preguntas o necesitas más información sobre nuestras soluciones, completa el formulario o utiliza los medios de contacto que encontrarás a continuación.</h5>
     <div class="control-wrapper fond">
         <h5 class="control-header">Contacto</h5>
-        <SfDataForm EditContext="@editContext" EnableFloatingLabel="true">
-            <FormItems>
-                <FormItem Field="@nameof(contactModel.FirstName)">
-                    <Template>
+        <EditForm EditContext="@editContext" EnableFloatingLabel="true">
+            <div class="form-top">
+                <div class="form-ip">
+                <label Field="@nameof(contactModel.FirstName)">
                         <SfTextBox @bind-Value="contactModel.FirstName" Placeholder="Nombre"></SfTextBox>
-                    </Template>
-                </FormItem>
-                <FormItem Field="@nameof(contactModel.LastName)">
-                    <Template>
-                        <SfTextBox @bind-Value="contactModel.LastName" Placeholder="Apellido"></SfTextBox>
-                    </Template>
-                </FormItem>
-                <FormItem Field="@nameof(contactModel.Email)">
-                    <Template>
+                </label>
+            </div>
+                <div class="form-ip">
+                <label Field="@nameof(contactModel.LastName)">
+                    <SfTextBox @bind-Value="contactModel.LastName" Placeholder="Apellido"></SfTextBox>
+                </label>
+            </div>
+                <div class="form-ip">
+                <label Field="@nameof(contactModel.Email)">
                         <SfTextBox @bind-Value="contactModel.Email" Placeholder="Email"></SfTextBox>
-                    </Template>
-                </FormItem>
-                <FormItem Field="@nameof(contactModel.Message)">
-                    <Template>
+                </label>
+             </div>
+                <div class="form-ip">
+                <label Field="@nameof(contactModel.Message)">
+
                         <SfTextBox @bind-Value="contactModel.Message" Multiline="true" Rows="4" Placeholder="Tu comentario"></SfTextBox>
-                    </Template>
-                    <FormButtons>
+                        <div class="form-ip">
                         <SfButton Content="Enviar" IsPrimary="true" OnClick="enviar"></SfButton>
-                    </FormButtons>
-                </FormItem>
-            </FormItems>
-        </SfDataForm>
+                        </div>
+                </label>
+                </div>
+            </div>
+        </EditForm>
     </div>
 </div>
 
@@ -41,6 +42,12 @@
 </SfToast>
 
 <style>
+    .form-ip{
+        padding-top:20px;
+    }
+    .form-top{
+        margin-top:20px;
+    }
     .mobile .control-wrapper {
         max-width: 100%;
     }
