@@ -1,0 +1,59 @@
+﻿@inherits LayoutComponentBase
+<div class="page">
+
+    <SfSidebar @bind-IsOpen="siderbar" Width="300px" Position="SidebarPosition.Left" style="background-color:#A8D26D; width:250px">
+            <ChildContent>
+                <div  class="text-content">
+                <ul class="list">
+                    <li class="cagetory">
+                        <NavLink  href="/">Inicio</NavLink>
+                        </li>
+                    <li class ="cagetory" >
+                        <NavLink  href="/categoria">Categoria</NavLink>
+                        </li>
+                    <li class="cagetory">
+                        <NavLink href="/contacto">Contacto</NavLink>
+                        </li>
+                    <li class="cagetory">
+                        <NavLink  href="/nosotros">Nosotros</NavLink>
+                        </li>
+                    <li class="cagetory">
+                        <NavLink href="/Usuario">Usuario</NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </ChildContent>
+        </SfSidebar>
+
+
+    <main>
+        <article class="content px-4">
+
+            <SfButton  IconCss="e-icon e-menu" CssClass="custom-button" OnClick="bar" IconPosition="IconPosition.Left"></SfButton>
+            @Body
+        </article>
+    </main>
+</div>
+<style>
+    activar {
+        color: black !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        text-decoration: none !important;
+        list-style: none !important;
+        transition: all 0.3s ease !important;
+    }
+
+        activar:hover {
+            color: #f0a500 !important; /* Cambia el color de la letra al pasar el mouse */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important; /* Añade sombra en los bordes */
+            border-radius: 5px !important; /* Opcional: redondea los bordes */
+        }
+</style>
+@code{
+    public bool siderbar;
+    public void bar()
+    {
+        siderbar = !siderbar;
+    }
+}
+

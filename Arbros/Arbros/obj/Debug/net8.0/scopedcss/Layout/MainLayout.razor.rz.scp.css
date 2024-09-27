@@ -1,0 +1,99 @@
+.page[b-abxhamn8ov] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-abxhamn8ov] {
+    flex: 1;
+}
+.top-row[b-abxhamn8ov] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-abxhamn8ov]  a, .top-row[b-abxhamn8ov]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-abxhamn8ov]  a:hover, .top-row[b-abxhamn8ov]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-abxhamn8ov]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+.custom-buttom[b-abxhamn8ov] {
+    background-color: black;
+    color: white;
+    margin-top: 15%;
+}
+
+
+.text-content[b-abxhamn8ov] {
+    font-size: 1.2rem;
+    padding: 3rem;
+}
+
+.main > div[b-abxhamn8ov] {
+    padding: 0px !important;
+}
+
+.list[b-abxhamn8ov] {
+    color: black !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.cagetory[b-abxhamn8ov]{
+    margin-top: 18px !important;
+    padding-right: 20px !important;
+    transition: all 0.3s ease !important;
+}
+@media (max-width: 640.98px) {
+    .top-row[b-abxhamn8ov] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-abxhamn8ov]  a, .top-row[b-abxhamn8ov]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-abxhamn8ov] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-abxhamn8ov] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-abxhamn8ov] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-abxhamn8ov]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-abxhamn8ov], article[b-abxhamn8ov] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}

@@ -1,0 +1,117 @@
+﻿@page "/contacto"
+@using System.ComponentModel.DataAnnotations
+@using Syncfusion.Blazor.Notifications
+
+<div class="col-lg-12 control-section">
+  <h5>Si tienes preguntas o necesitas más información sobre nuestras soluciones, completa el formulario o utiliza los medios de contacto que encontrarás a continuación.</h5>
+    <div class="control-wrapper fond">
+        <h5 class="control-header">Contacto</h5>
+        <SfDataForm EditContext="@editContext" EnableFloatingLabel="true">
+            <FormItems>
+                <FormItem Field="@nameof(contactModel.FirstName)">
+                    <Template>
+                        <SfTextBox @bind-Value="contactModel.FirstName" Placeholder="Nombre"></SfTextBox>
+                    </Template>
+                </FormItem>
+                <FormItem Field="@nameof(contactModel.LastName)">
+                    <Template>
+                        <SfTextBox @bind-Value="contactModel.LastName" Placeholder="Apellido"></SfTextBox>
+                    </Template>
+                </FormItem>
+                <FormItem Field="@nameof(contactModel.Email)">
+                    <Template>
+                        <SfTextBox @bind-Value="contactModel.Email" Placeholder="Email"></SfTextBox>
+                    </Template>
+                </FormItem>
+                <FormItem Field="@nameof(contactModel.Message)">
+                    <Template>
+                        <SfTextBox @bind-Value="contactModel.Message" Multiline="true" Rows="4" Placeholder="Tu comentario"></SfTextBox>
+                    </Template>
+                    <FormButtons>
+                        <SfButton Content="Enviar" IsPrimary="true" OnClick="enviar"></SfButton>
+                    </FormButtons>
+                </FormItem>
+            </FormItems>
+        </SfDataForm>
+    </div>
+</div>
+
+<!-- Componente de notificación -->
+<SfToast @ref="toastObj" Title="Éxito" Content="Su mensaje ha sido enviado correctamente" Timeout="3000" ShowProgressBar="true">
+</SfToast>
+
+<style>
+    .mobile .control-wrapper {
+        max-width: 100%;
+    }
+
+    .control-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .control-header {
+        text-align: center;
+    }
+    .fond{
+        background-image:url(imagen/form.jpg);
+        position: relative;
+        background-size: cover; /* Hace que la imagen cubra todo el fondo */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        image-rendering: auto;
+        border-radius:10%;
+        box-shadow: 10px 10px 10px 10px rgba(0 ,0, 0, 0.5);
+    }
+
+
+</style>
+
+@code {
+    private ContactModel contactModel = new ContactModel();
+    private EditContext? editContext; // Hacemos nullable el campo EditContext
+    private SfToast? toastObj;
+
+    protected override void OnInitialized()
+    {
+        // Inicializa el EditContext con el modelo
+        editContext = new EditContext(contactModel);
+    }
+
+    public class ContactModel
+    {
+        [Required(ErrorMessage = "First name is required")]
+        public string FirstName { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Last name is required")]
+        public string LastName { get; set; } = string.Empty;
+
+        [Required]
+        [EmailAddress(ErrorMessage = "Enter a valid email address")]
+        public string Email { get; set; } = string.Empty;
+
+        public string Message { get; set; } = string.Empty;
+    }
+
+    private async Task enviar(MouseEventArgs args)
+    {
+        // Verificar que editContext no sea null antes de validarlo
+        if (editContext != null && editContext.Validate()) // Valida el formulario
+        {
+            // Mostrar notificación de éxito, si toastObj no es null
+            if (toastObj != null)
+            {
+                await toastObj.ShowAsync();
+            }
+
+            // Opcional: Limpiar los campos después de enviar
+            contactModel = new ContactModel();
+            editContext = new EditContext(contactModel); // Reiniciar el EditContext con el nuevo modelo
+        }
+        else
+        {
+            // Aquí podrías manejar errores o mostrar un mensaje si la validación falla.
+        }
+    }
+}

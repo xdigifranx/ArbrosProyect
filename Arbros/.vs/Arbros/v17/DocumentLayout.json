@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Arbros\\Arbros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\usuario\\arbros\\arbros\\arbros\\pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\pages\\contacto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|c:\\users\\usuario\\arbros\\arbros\\arbros\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0BE6C56-6CD7-474D-B392-CB05AD2D1BC5}|Arbros\\Arbros.csproj|solutionrelative:arbros\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Arbros\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Arbros\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T02:11:11.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contacto.razor",
+              "DocumentMoniker": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Pages\\Contacto.razor",
+              "RelativeDocumentMoniker": "Arbros\\Pages\\Contacto.razor",
+              "ToolTip": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\Pages\\Contacto.razor",
+              "RelativeToolTip": "Arbros\\Pages\\Contacto.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T02:08:10.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

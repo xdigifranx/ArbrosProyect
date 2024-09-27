@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\obj\\Debug\\net8.0\\compressed\\xgn33ou1x6.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Arbros.styles.css",
+      "PackagePath": "staticwebassets\\Arbros.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\imagen\\Git-2.46.2-64-bit.exe",
+      "PackagePath": "staticwebassets\\imagen\\Git-2.46.2-64-bit.exe"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\imagen\\form.jpg",
+      "PackagePath": "staticwebassets\\imagen\\form.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\imagen\\molinoviento.jpg",
+      "PackagePath": "staticwebassets\\imagen\\molinoviento.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\imagen\\panel.jpg",
+      "PackagePath": "staticwebassets\\imagen\\panel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\imagen\\paneles.jpg",
+      "PackagePath": "staticwebassets\\imagen\\paneles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Arbros\\Arbros\\Arbros\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Arbros.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Arbros.props",
+      "PackagePath": "build\\Arbros.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Arbros.props",
+      "PackagePath": "buildMultiTargeting\\Arbros.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Arbros.props",
+      "PackagePath": "buildTransitive\\Arbros.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
